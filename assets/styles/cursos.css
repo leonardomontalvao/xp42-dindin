@@ -1,0 +1,143 @@
+main {
+    padding-top: 0px;
+      display: flex;
+    justify-content: center; 
+} 
+/* main > section {
+    background: url('../img-omma/baner.jpg') 100% 0% repeat-x scroll;
+    background-size: auto;
+    
+    
+    
+} */
+
+
+}
+main{
+    
+margin: 0 0 0 136px ;    
+background: #FFFFFF;
+border: 0px ;  
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: flex-start;
+text-decoration: none;
+    
+}
+main > .container{
+display: block;
+justify-content: center;
+
+}
+main h1{
+width: 263px;
+height: 30px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 69px;
+color: #FF4081;
+}
+main h4{
+
+width: 317px;
+height: 10px;   
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #555555;
+margin: 0 0 95px 0;
+}
+main  div .imagempoupando{
+    display: flex;  
+    margin: 0 0 20px 30px;
+    padding: 0
+}
+    
+main  div .investimento {
+color: #FF4081;  
+margin: 0 0 0 53px;
+    
+}
+main div h2{
+width: 512px;
+ height: 40px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+color: #FF4081;
+}
+main  div .investimento p {
+width: 724px;
+height: 105px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+color: #000000;   
+}
+main div ul   {
+    padding:8px 2px ;
+    width: 250px;
+    height: 37px;
+    background: #419488; 
+    border-radius: 62px;
+    list-style: none;
+    
+    
+}
+main div ul a { 
+display: block;
+text-align: center;
+padding: 5px 0 0 13px;
+text-decoration: none; 
+width: 216px;
+height: 25px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+
+color: #FFFFFF;
+
+}
+
+main  div .imagem-investimento {
+    display: flex;  
+    margin: 0 0 20px 30px;
+    padding: 700px
+}
+
+hr{
+    width: 1440px;
+    height: 2px;
+    margin: 80px 0px ;
+    color: #E5E5E5 ;
+    align-items: center;
+}
+main  div .imagem-investimento {
+    display: flex;  
+    margin: 0 0 20px 30px;
+    padding: 700px
+}
+
+@media only screen and (max-width: 481px) {
+
+    .container {
+        width: 460px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h2 {
+        margin: 10px 0;
+    }
+}

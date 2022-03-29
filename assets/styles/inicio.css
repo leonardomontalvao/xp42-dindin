@@ -1,0 +1,54 @@
+main {
+    padding-top: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container {
+    padding: 93px 0 81px 0;
+    display: flex;
+}
+
+main div .investimento-iniciantes {
+    width: 40%;
+    margin: 0 0 0 100px;
+}
+
+main div .investimento-iniciantes h1 {
+    width: 380px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    color: #FF4081;
+}
+
+main .container p {
+    width: 461px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.cordefundo {
+    background: #F7F7F7;
+}
+
+.container2 {
+    padding: 75px 0 73px 0;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+    background: #F7F7F7;
+    width: 1440px;
+}
+
+main div .imagemxadrez {
+    width: 40%;
+    margin: 0 100px 0 0;
+}

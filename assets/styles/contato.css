@@ -1,0 +1,162 @@
+main {
+    padding-top: 0px;
+      display: flex;
+    justify-content: center; 
+} 
+/* main > section {
+    background: url('../img-omma/baner.jpg') 100% 0% repeat-x scroll;
+    background-size: auto;
+    
+    
+    
+} */
+
+
+}
+main{
+    
+    margin: 0 0 0 136px ;    
+    background: #FFFFFF;
+    border: 0px ;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+    
+}
+main.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+  h3 {
+    color: #FF4081;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;  
+    
+    
+}
+label{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+#imagem-contato{
+    background-image: ;
+}
+ main > .container {
+     
+    display: flex;
+    justify-content: center;
+    
+    gap: 15px;
+    padding: 102px 133px;    
+    
+
+}
+
+main div label{
+    width: 30%;
+}
+main div h3{
+    width: 30%;
+}
+div.contato {
+    width: 40%;
+    
+}
+div #imagem-contato {
+    width: 40%;
+    display: flex;
+}
+.screen-reader-only {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+     overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+} 
+main input {
+    width: 493px;
+    height: 32px;
+    margin: 0 0 15px 0;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+}
+#nome {
+    padding: 0 0 0 22.13px;
+   
+
+}
+#email{
+    padding: 0 0 0 22.13px;
+}
+#mensagem {
+    padding: 20px 0 0 22.16px ;
+}
+
+main textarea{
+    margin: 0 0 15px 0 ;
+    width: 493px;
+    height: 193px;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+    resize: none;
+}
+main #enviar {
+    font-family: ;
+
+    width: 108px;
+    height: 32px;
+    background: #FF4081;
+    border: #FF4081;
+    border-radius: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;  
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+
+}
+
+
+/* @media only screen and (max-width: 1300px) {   
+
+    fieldset {
+        background-image: none;
+        margin: 0 15px 50px;
+    }
+}
+mexer depois
+ */
+
+ @media only screen and (max-width: 481px) {
+
+    .container {
+        width: 460px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    header h2 {
+        margin: 10px 0;
+    }
+}
