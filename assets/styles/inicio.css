@@ -1,54 +1,223 @@
-main {
-    padding-top: 0px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-}
-
-main .container {
-    padding: 93px 0 81px 0;
-    display: flex;
-}
-
-main div .investimento-iniciantes {
-    width: 40%;
-    margin: 0 0 0 100px;
-}
-
-main div .investimento-iniciantes h1 {
-    width: 380px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 55px;
-    color: #FF4081;
-}
-
-main .container p {
-    width: 461px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300px;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-}
-
-.cordefundo {
-    background: #F7F7F7;
-}
-
-.container2 {
-    padding: 75px 0 73px 0;
-    display: flex;
-    justify-content: space-between;
-    box-sizing: content-box;
-    background: #F7F7F7;
-    width: 1440px;
-}
-
-main div .imagemxadrez {
-    width: 40%;
-    margin: 0 100px 0 0;
-}
+        main {
+            padding-top: 0px;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        main .container {
+            padding: 93px 75px 81px 0;
+            display: flex;
+        }
+        
+        main div .investimento-iniciantes {
+            width: 40%;
+            margin: 0 0 0 140px;
+        }
+        
+        main div .investimento-iniciantes h1 {
+            width: 380px;
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 55px;
+            color: #FF4081;
+        }
+        
+        main .container p {
+            width: 461px;
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 300px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+        }
+        
+        .cordefundo {
+            background: #F7F7F7;
+        }
+        
+        .container2 {
+            padding: 75px 0 73px 0;
+            display: flex;
+            justify-content: space-between;
+            box-sizing: content-box;
+            background: #F7F7F7;
+            width: 1440px;
+        }
+        
+        main div .ilustraçãobuner {
+            margin: 0 150px 0 0;
+        }
+        
+        main div .investimento-iniciantes p {
+            width: 364px;
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 27px;
+            color: #555555;
+        }
+        
+        .cursos-investimentos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 109px 0 0 0;
+        }
+        
+        .link-curso {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 345px;
+            margin: 0 0 116px;
+        }
+        
+        .link-curso img {
+            width: 345px;
+            height: 342px;
+            display: block;
+            margin: 0 0 12px;
+        }
+        
+        .link-curso span {
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            text-transform: lowercase;
+            margin: 0 0 24px;
+            color: #FF4081
+        }
+        
+        .link-curso p {
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 17px;
+            text-transform: lowercase;
+            margin: 0 0 24px;
+            color: #000000;
+        }
+        
+        .link-curso a {
+            color: #ffffff;
+            background: #FF4081;
+            font-size: 20px;
+            font-weight: 400;
+            padding: 10px 43px;
+            text-transform: lowercase;
+            text-decoration: none;
+            border-radius: 62px;
+        }
+        
+        .comentario {
+            width: 32%;
+            margin: 0 0 0 128px;
+            display: inline-block;
+        }
+        
+        .falam-sobre-nos {
+            margin: 0 0 78px 0;
+        }
+        
+        main .falam-sobre-nos h2 {
+            margin: 119px 0 78px 128px;
+            width: 500px;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 37px;
+            color: #009688;
+        }
+        
+        main .opniao {
+            position: absolute;
+            width: 334px;
+            height: 107px;
+            margin: 0 0 0 37px;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            color: #000000;
+        }
+        
+        main .opniao p {
+            width: 180px;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            color: #000000;
+        }
+        
+        .mais-conteudo-para-voce h3 {
+            margin: 119px 0 78px 128px;
+            width: 50%px;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 37px;
+            color: #009688;
+        }
+        
+        .mais-conteudo {
+            display: inline-block;
+            width: 23%;
+            margin: 0 0 0 125px;
+        }
+        
+        .mais-conteudo span {
+            display: block;
+            width: 319px;
+        }
+        
+        .mais-conteudo span.conteudo {
+            display: block;
+            width: 319px;
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 27px;
+            color: #009688;
+        }
+        
+        .mais-conteudo span.conteudo p {
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+            text-align: left;
+        }
+        
+        .começar-agora {
+            margin: 101px 0 53px 0;
+            border-color: #FF4081;
+        }
+        
+        .começar-agora a {
+            margin: 101px 630px;
+            width: 300px;
+            color: #FF4081;
+            background-color: #F7F7F7;
+            font-size: 20px;
+            font-weight: 400;
+            padding: 10px 43px;
+            text-transform: lowercase;
+            text-decoration: none;
+            border-radius: 62px;
+            border: 2px solid #FF4081;
+        }
