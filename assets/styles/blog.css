@@ -1,0 +1,73 @@
+main {
+    padding-top: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: ;
+    margin: 0 0 109px 0;
+}
+
+main .container {
+    padding: 93px 0 81px 80px;
+    justify-content: space-between;
+    box-sizing: content-box;
+}
+
+main div .mais-conteudo-para-voce {
+    width: 40%;
+    margin: 0 0 0 100px;
+}
+
+main div .mais-conteudo-para-voce h1 {
+    width: 512px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    color: #009688;
+}
+
+main .container p {
+    width: 461px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.imagem-blog {
+    margin: 0 150px 0 0;
+}
+
+main .mais-conteudos2 {
+    padding: 113px 113px 0 113px;
+    width: 35%;
+    display: inline-block;
+}
+
+.mais-conteudos2 a {
+    width: 455px;
+    margin: 19px 0;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: #FF4081;
+    text-decoration: none;
+}
+
+.mais-conteudos2 p {
+    width: 516px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
