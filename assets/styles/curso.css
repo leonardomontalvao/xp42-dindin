@@ -3,20 +3,23 @@ main {
     display: grid;
     align-items: center;
     justify-content: center;
+    background-color: ;
+    margin: 0 0 109px 0;
 }
 
 main .container {
-    padding: 93px 0 81px 0;
-    display: flex;
+    padding: 93px 0 81px 80px;
+    justify-content: space-between;
+    box-sizing: content-box;
 }
 
-main div .investimento-iniciantes {
+main div .mais-conteudo-para-voce {
     width: 40%;
     margin: 0 0 0 100px;
 }
 
-main div .investimento-iniciantes h1 {
-    width: 400px;
+main div .mais-conteudo-para-voce h1 {
+    width: 512px;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
@@ -28,17 +31,22 @@ main .container p {
     width: 461px;
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 300px;
+    font-weight: 300;
     font-size: 20px;
     display: flex;
     align-items: center;
     color: #000000;
 }
 
+.imagem-blog {
+    margin: 0 150px 0 0;
+}
+
+
+}
 .cordefundo {
     background: #F7F7F7;
 }
-
 .container2 {
     padding: 75px 0 73px 0;
     display: flex;
@@ -47,23 +55,19 @@ main .container p {
     background: #F7F7F7;
     width: 1440px;
 }
-
 main div .imagemxadrez {
     width: 40%;
     margin: 0 100px 0 0;
 }
-
 .container2 .aula {
     width: 35%;
     display: grid;
     margin: 0 0 0 100px;
 }
-
 .container2 .aula-texto {
     width: 40%;
     margin: 0 100px 0 0;
 }
-
 .container2 .aula-texto h2 {
     width: 512px;
     font-family: 'Ubuntu';
@@ -72,7 +76,6 @@ main div .imagemxadrez {
     font-size: 35px;
     color: #FF4081;
 }
-
 .container2 .aula-texto p {
     font-family: 'Ubuntu';
     font-style: normal;
@@ -82,9 +85,7 @@ main div .imagemxadrez {
     color: #000000;
 }
 
-
 /* aula 02 */
-
 .container3 {
     padding: 75px 0 73px 0;
     display: flex;
@@ -93,18 +94,15 @@ main div .imagemxadrez {
     background: #F7F7F7;
     width: 1440px;
 }
-
 .container3 .aula {
     width: 35%;
     display: grid;
     margin: 0 0 0 100px;
 }
-
 .container3 .aula-texto {
     width: 40%;
     margin: 0 100px 0 0;
 }
-
 .container3 .aula-texto h2 {
     width: 512px;
     font-family: 'Ubuntu';
@@ -113,7 +111,6 @@ main div .imagemxadrez {
     font-size: 35px;
     color: #FF4081;
 }
-
 .container3 .aula-texto p {
     font-family: 'Ubuntu';
     font-style: normal;
@@ -123,9 +120,7 @@ main div .imagemxadrez {
     color: #000000;
 }
 
-
 /* aula 03 */
-
 .container4 {
     padding: 75px 0 73px 0;
     display: flex;
@@ -134,18 +129,15 @@ main div .imagemxadrez {
     background: #F7F7F7;
     width: 1440px;
 }
-
 .container4 .aula {
     width: 35%;
     display: grid;
     margin: 0 0 0 100px;
 }
-
 .container4 .aula-texto {
     width: 40%;
     margin: 0 100px 0 0;
 }
-
 .container4 .aula-texto h2 {
     width: 512px;
     font-family: 'Ubuntu';
@@ -154,7 +146,6 @@ main div .imagemxadrez {
     font-size: 35px;
     color: #FF4081;
 }
-
 .container4 .aula-texto p {
     font-family: 'Ubuntu';
     font-style: normal;
